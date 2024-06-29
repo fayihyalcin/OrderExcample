@@ -1,0 +1,52 @@
+CRITICAL - 2024-06-29 06:44:06 --> ErrorException: Undefined variable $products
+[Method: GET, Route: cart/view]
+in APPPATH\Views\cart\view.php on line 43.
+ 1 APPPATH\Views\cart\view.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\wamp64\\www\\codeig\\app\\Views\\cart\\view.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\codeig\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(44): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-29 06:45:48 --> ErrorException: Undefined variable $products
+[Method: GET, Route: cart/view]
+in APPPATH\Views\cart\view.php on line 43.
+ 1 APPPATH\Views\cart\view.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\wamp64\\www\\codeig\\app\\Views\\cart\\view.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\codeig\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(27): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-29 06:45:53 --> ErrorException: Undefined variable $products
+[Method: GET, Route: cart/view]
+in APPPATH\Views\cart\view.php on line 43.
+ 1 APPPATH\Views\cart\view.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\wamp64\\www\\codeig\\app\\Views\\cart\\view.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\codeig\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(27): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-29 06:46:11 --> ErrorException: Undefined property: App\Controllers\CartController::$cartModel
+[Method: GET, Route: cart/view]
+in APPPATH\Controllers\CartController.php on line 15.
+ 1 APPPATH\Controllers\CartController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CartController::$cartModel', 'C:\\wamp64\\www\\codeig\\app\\Controllers\\CartController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
